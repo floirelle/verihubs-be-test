@@ -22,7 +22,7 @@ def get_url(db_name=None):
     
     url = URL.create(
         drivername="sqlite",
-        database=os.getenv("DB_NAME")+".db"
+        database=os.getenv("DB_NAME","data")+".db"
     )
 
     return url
