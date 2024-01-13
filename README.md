@@ -1,5 +1,5 @@
 # Prerequisities
-    3.9
+   Python 3.9
 # How to run
 1. Install the required modules by running `pip install -r requirements.txt`
 2. Run the backend server by running `uvicorn backend:app --reload`
@@ -8,6 +8,8 @@
 # How to run test
     pytest --cov=.
 
+# Live Service
+Access the api here <https://verihubs-be.onrender.com/>
 # TASK
 Coding Test Backend
 
