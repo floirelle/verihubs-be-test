@@ -1,0 +1,53 @@
+annotated-types @ file:///home/conda/feedstock_root/build_artifacts/annotated-types_1696634205638/work
+anyio @ file:///C:/ci_311/anyio_1676425491996/work/dist
+argon2-cffi @ file:///opt/conda/conda-bld/argon2-cffi_1645000214183/work
+argon2-cffi-bindings @ file:///C:/ci_311/argon2-cffi-bindings_1676424443321/work
+arrow @ file:///C:/ci_311/arrow_1678249767083/work
+Babel @ file:///C:/ci_311/babel_1676427169844/work
+bcrypt @ file:///C:/ci_311/bcrypt_1676435170049/work
+Brotli @ file:///C:/ci_311/brotli-split_1676435766766/work
+certifi @ file:///C:/b/abs_91u83siphd/croot/certifi_1700501720658/work/certifi
+cffi @ file:///C:/b/abs_924gv1kxzj/croot/cffi_1700254355075/work
+charset-normalizer @ file:///tmp/build/80754af9/charset-normalizer_1630003229654/work
+click @ file:///C:/b/abs_f9ihnt72pu/croot/click_1698129847492/work
+colorama @ file:///C:/ci_311/colorama_1676422310965/work
+colour==0.1.5
+cryptography @ file:///C:/b/abs_e8cnom_zw_/croot/cryptography_1702071486468/work
+dnspython @ file:///C:/b/abs_449_z2xz29/croot/dnspython_1703097012342/work
+ecdsa @ file:///tmp/build/80754af9/ecdsa_1622554921100/work
+email-validator @ file:///C:/ci_311/email-validator-meta_1676440707247/work
+fastapi @ file:///C:/b/abs_17bc_xka63/croot/fastapi_1693295449860/work
+furl @ file:///tmp/build/80754af9/furl_1618421806065/work
+future @ file:///C:/ci_311_rebuilds/future_1678998246262/work
+greenlet @ file:///C:/b/abs_a6c75ie0bc/croot/greenlet_1702060012174/work
+h11 @ file:///tmp/build/80754af9/h11_1620423447028/work
+idna @ file:///C:/ci_311/idna_1676424932545/work
+infinity==1.5
+intervals==0.9.2
+orderedmultidict==1.0.1
+passlib==1.7.4
+pendulum @ file:///tmp/build/80754af9/pendulum_1605120908839/work
+phonenumbers @ file:///tmp/build/80754af9/phonenumbers_1626154302581/work
+pyasn1 @ file:///Users/ktietz/demo/mc3/conda-bld/pyasn1_1629708007385/work
+pycparser @ file:///tmp/build/80754af9/pycparser_1636541352034/work
+pycryptodome @ file:///C:/ci_311/pycryptodome_1676445641085/work
+pydantic @ file:///home/conda/feedstock_root/build_artifacts/pydantic_1703248379805/work
+pydantic_core @ file:///D:/bld/pydantic-core_1703318647927/work
+pyOpenSSL @ file:///C:/b/abs_08f38zyck4/croot/pyopenssl_1690225407403/work
+PySocks @ file:///C:/ci_311/pysocks_1676425991111/work
+python-dateutil @ file:///tmp/build/80754af9/python-dateutil_1626374649649/work
+python-dotenv @ file:///home/conda/feedstock_root/build_artifacts/python-dotenv-split_1693865766170/work
+python-jose @ file:///tmp/build/80754af9/python-jose_1623673016654/work
+pytz @ file:///C:/b/abs_19q3ljkez4/croot/pytz_1695131651401/work
+pytzdata @ file:///Users/ktietz/demo/mc3/conda-bld/pytzdata_1630655795405/work
+requests @ file:///C:/b/abs_316c2inijk/croot/requests_1690400295842/work
+rsa @ file:///tmp/build/80754af9/rsa_1614366226499/work
+six @ file:///tmp/build/80754af9/six_1644875935023/work
+sniffio @ file:///C:/ci_311/sniffio_1676425339093/work
+SQLAlchemy @ file:///C:/b/abs_876dxwqqu8/croot/sqlalchemy_1705089154696/work
+SQLAlchemy-Utils @ file:///C:/b/abs_9d8_4ssski/croot/sqlalchemy-utils_1682708621158/work
+starlette @ file:///C:/b/abs_f6jqjvlnz0/croot/starlette-recipe_1692980584602/work
+typing_extensions @ file:///C:/b/abs_213vg2cd1l/croot/typing_extensions_1690297804941/work
+urllib3 @ file:///C:/b/abs_9cmlsrm3ys/croot/urllib3_1698257595508/work
+uvicorn @ file:///C:/ci_311_rebuilds/uvicorn-split_1679017274842/work
+win-inet-pton @ file:///C:/ci_311/win_inet_pton_1676425458225/work
