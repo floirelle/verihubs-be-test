@@ -1,5 +1,5 @@
 from sqlalchemy import Column,Integer,String,ForeignKey
-from db import Base
+from backend.db import Base
 
 class Coin(Base):
     __tablename__ = "coin"

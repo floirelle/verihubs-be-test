@@ -1,5 +1,5 @@
 import requests
-from db import get_session
+from backend.db import get_session
 from backend.models import Coin,AddCoinRequest
 from backend.exceptions import NotFoundException,ForbiddenAccess,BadRequestException
 from backend.utils import convert_usd_to_idr

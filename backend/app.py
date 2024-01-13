@@ -1,15 +1,13 @@
 import sys,os
 from fastapi import FastAPI,Request,Response
 from fastapi.responses import JSONResponse
-sys.path.append(os.path.dirname(os.path.abspath(__file__)) + "/..")
-
 from backend.models import UserAuth,AddCoinRequest
 from backend.auth import auth
 from backend.coin import coin
 from backend.user import get_current_user
 from backend.response import BaseResponse
 from backend.exceptions import BaseException
-from db import init_database_if_not_exists
+from backend.db import init_database_if_not_exists
 
 init_database_if_not_exists()
 app = FastAPI()

@@ -1,7 +1,7 @@
 from backend.models import UserAuth,User
 from backend.exceptions import BadRequestException,NotAuthorizedException
 from backend.utils import hash_password,is_password_valid,generate_jwt_token
-from db import get_session
+from backend.db import get_session
 from sqlalchemy import select
 from email_validator import validate_email
 

@@ -1,7 +1,7 @@
 from backend.exceptions import NotAuthorizedException
 from backend.models import User
 from backend.utils import decode_jwt_token
-from db import get_session
+from backend.db import get_session
 
 def get_current_user(token):
     try:

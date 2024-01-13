@@ -1,5 +1,5 @@
 import os
-from db import Base
+from backend.db import Base
 from sqlalchemy import create_engine
 from sqlalchemy.engine import URL
 from sqlalchemy_utils.functions import create_database,database_exists
