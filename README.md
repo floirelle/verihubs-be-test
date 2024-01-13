@@ -1,5 +1,5 @@
 # Prerequisities
-    Python 3.11 or older
+    3.10 <= Python < 3.12
 # How to run
 1. Install the required modules by running `pip install -r requirements.txt`
 2. Run the backend server by running `uvicorn backend:app --reload`
