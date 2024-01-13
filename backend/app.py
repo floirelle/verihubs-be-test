@@ -40,7 +40,7 @@ auth_app = FastAPI()
 async def auth_middleware(request: Request, call_next):
     if not should_skip_auth(request.method, request.url.path):
         token = request.cookies.get("token")
-        if token == "":
+        if token == None or  token == "":
             return JSONResponse(vars(BaseResponse(401,"Not authorized")),401)
         user = get_current_user(token)    
         request.state.id = int(user.id)
