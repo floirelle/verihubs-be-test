@@ -1,3 +1,4 @@
+import sys,os
 from fastapi import FastAPI,Request,Response
 from fastapi.responses import JSONResponse
 from db import init_database_if_not_exists
@@ -8,6 +9,7 @@ from backend.user import get_current_user
 from backend.response import BaseResponse
 from backend.exceptions import BaseException
 
+sys.path.append(os.path.dirname(os.path.abspath(__file__)) + "/..")
 init_database_if_not_exists()
 app = FastAPI()
 
