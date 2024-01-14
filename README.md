@@ -2,7 +2,7 @@
    Python 3.9
 # How to run
 1. Install the required modules by running `pip install -r requirements.txt`
-2. Run the backend server by running `uvicorn backend:app --reload`
+2. Run the backend server by running `uvicorn backend.app:app`
 3. To see the api list, go to <http:/127.0.0.1:8000/docs>
 
 # How to run test
