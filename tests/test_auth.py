@@ -2,9 +2,14 @@ import unittest
 from backend.auth import *
 from backend.models import UserAuth
 from backend.exceptions import BadRequestException,NotAuthorizedException
+from backend.db import init_database_if_not_exists
+
 
 class TestAuth(unittest.TestCase):
-    
+
+    def setUp(cls):
+        init_database_if_not_exists("test")
+
     def test_signup(self):
         with self.assertRaises(BadRequestException) as expected:
             user = UserAuth(

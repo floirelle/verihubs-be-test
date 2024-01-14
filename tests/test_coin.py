@@ -5,8 +5,12 @@ from backend.coin import *
 from backend.auth import signup
 from backend.models import UserAuth,AddCoinRequest
 from backend.exceptions import BadRequestException,ForbiddenAccess,NotFoundException
+from backend.db import init_database_if_not_exists
 
 class TestCoin(unittest.TestCase):
+
+    def setUp(cls):
+        init_database_if_not_exists("test")
 
     def get_side_effect(self,value):
         if value == "/assets/5":
